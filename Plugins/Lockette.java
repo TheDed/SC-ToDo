@@ -1743,8 +1743,8 @@
 /* 1743 */     signname = ChatColor.stripColor(signname);
 /* 1744 */     pname = ChatColor.stripColor(pname);
 /* 1745 */     int length = pname.length();
-/* 1746 */     if (length > 15)
-/* 1747 */       length = 15;
+/* 1746 */     if (length > 16)
+/* 1747 */       length = 16;
 /* 1748 */     return signname.equalsIgnoreCase(pname.substring(0, length));
 /*      */   }
 /*      */   
